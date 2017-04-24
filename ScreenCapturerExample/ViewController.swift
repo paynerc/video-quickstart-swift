@@ -90,7 +90,7 @@ class ViewController : UIViewController {
         localVideoTrack?.addRenderer(remoteView!)
 
         remoteView!.isHidden = true
-        self.view.addSubview((self.remoteView)!)
+        self.view.addSubview(self.remoteView!)
         self.view.setNeedsLayout()
     }
 
