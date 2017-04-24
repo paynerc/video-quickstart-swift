@@ -195,7 +195,7 @@ class ViewController: UIViewController {
 
     func prepareLocalMedia() {
 
-        // We will share local audio and video when we connect to room.
+        // We will share local audio and video when we connect to the Room.
 
         // Create an audio track.
         if (localAudioTrack == nil) {
